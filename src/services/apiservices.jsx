@@ -1,7 +1,7 @@
 // services/menuService.js
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:5000/api';
+const BASE_URL = 'https://deepnet-server.onrender.com/api';
 
 export const menuService = {
   getAllMenus: async () => {
