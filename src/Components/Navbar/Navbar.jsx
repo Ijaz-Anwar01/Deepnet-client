@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className={isMobile?'h-[40px] bg-[#121618]':'navbar-container w-full h-[100px] bg-[#121618]'}>
       <div className="navbar flex justify-between items-center px-6 lg:px-16">
         <div className="navbar-logo flex gap-5 mt-[62px] ml-[130px] ">
-          <img src={logo} alt="Logo" className={isMobile?'w-[50px] h-[44px] absolute mt-[-46px] ml-[40px]':'w-[86px] h-[76px]'} />
+          <img src={logo} alt="Logo" className={isMobile?'w-[50px] h-[44px] absolute mt-[-46px] ml-[38px]':'w-[86px] h-[76px]'} />
           <div className={isMobile?'hidden':'logo-text font-oswald text-[35px] font-semibold leading-[51px]'}>
             <p className='text-[#0796EF]'>  
               DEEP <span className='text-[#ffffff]'>NET</span>
