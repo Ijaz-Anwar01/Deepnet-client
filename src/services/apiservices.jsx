@@ -1,4 +1,4 @@
-// services/menuService.js
+
 import axios from 'axios';
 
 const BASE_URL = 'https://deepnet-server.onrender.com/api';
